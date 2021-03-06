@@ -1,7 +1,7 @@
 package com.nackademin.catrine_bergstromner_assignment02;
 import java.lang.Math;
 
-public class AdvancedCalculator implements AdvancedOperations{
+public class AdvancedCalculator extends BasicCalculator implements AdvancedOperations{
 
 	@Override
 	public double square(double num3) {
