@@ -14,18 +14,18 @@ public class AdvancedCalculator implements AdvancedOperations{
 	}
 
 	@Override
-	public double abs(double num3) {
-				return Math.abs(num3);
+	public double abs(double num4) {
+				return Math.abs(num4);
 	}
 
 	@Override
-	public double sin(double num3) {
-		return Math.sin(num3);
+	public double sin(double num5) {
+		return Math.sinh(num5);
 	}
 
 	@Override
-	public double cos(double num3) {
-			return Math.cos(num3);
+	public double cos(double num6) {
+			return Math.cosh(num6);
 	}
 	
 
