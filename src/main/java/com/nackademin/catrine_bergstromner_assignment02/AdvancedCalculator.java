@@ -14,17 +14,17 @@ public class AdvancedCalculator extends BasicCalculator implements AdvancedOpera
 	}
 
 	@Override
-	public double abs(double num4) {
-				return Math.abs(num4);
+	public double tan(double num4) {
+				return Math.tan(num4);
 	}
 
 	@Override
-	public double sin(double num5) {
+	public double sinh(double num5) {
 		return Math.sinh(num5);
 	}
 
 	@Override
-	public double cos(double num6) {
+	public double cosh(double num6) {
 			return Math.cosh(num6);
 	}
 	

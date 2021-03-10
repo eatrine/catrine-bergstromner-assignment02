@@ -11,9 +11,9 @@ public class Main {
 		System.out.println(bc.div(4, 10));
 		System.out.println(ac.square(10));
 		System.out.println(ac.powerOf(4, 10));
-		System.out.println(ac.abs(-1000));
-		System.out.println(ac.sin(10));
-		System.out.println(ac.cos(10));
+		System.out.println(ac.tan(10));
+		System.out.println(ac.sinh(10));
+		System.out.println(ac.cosh(10));
 	}
 
 }
