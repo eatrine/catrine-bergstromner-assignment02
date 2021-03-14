@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -101,7 +101,12 @@
                     <div class="method-list-content passed suite-Surefire_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nackademin.catrine_bergstromner_assignment02.AppTest" hash-for-method="shouldAnswerWithTrue">shouldAnswerWithTrue</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nackademin.catrine_bergstromner_assignment02.MyAdvancedCalcTest" hash-for-method="testAdvCalc">testAdvCalc</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Surefire_suite" title="com.nackademin.catrine_bergstromner_assignment02.MyBasicCalcTest" hash-for-method="testCalc">testCalc</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Surefire_suite -->
@@ -119,14 +124,29 @@
           <div class="suite-Surefire_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.nackademin.catrine_bergstromner_assignment02.AppTest</span>
+              <span class="class-name">com.nackademin.catrine_bergstromner_assignment02.MyAdvancedCalcTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="shouldAnswerWithTrue">
-                  </a> <!-- shouldAnswerWithTrue -->
-                  <span class="method-name">shouldAnswerWithTrue</span>
+                  <a name="testAdvCalc">
+                  </a> <!-- testAdvCalc -->
+                  <span class="method-name">testAdvCalc</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nackademin.catrine_bergstromner_assignment02.MyBasicCalcTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCalc">
+                  </a> <!-- testCalc -->
+                  <span class="method-name">testCalc</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -142,7 +162,8 @@
 &lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;Surefire suite&quot; junit=&quot;true&quot;&gt;
   &lt;test name=&quot;Surefire test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.nackademin.catrine_bergstromner_assignment02.AppTest&quot;/&gt;
+      &lt;class name=&quot;com.nackademin.catrine_bergstromner_assignment02.MyBasicCalcTest&quot;/&gt;
+      &lt;class name=&quot;com.nackademin.catrine_bergstromner_assignment02.MyAdvancedCalcTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Surefire test --&gt;
 &lt;/suite&gt; &lt;!-- Surefire suite --&gt;
@@ -156,7 +177,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Surefire test (1 class)</span>
+                <span class="test-name">Surefire test (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -182,16 +203,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'shouldAnswerWithTrue')
-data.setCell(0, 2, 'com.nackademin.catrine_bergstromner_assignment02.AppTest')
-data.setCell(0, 3, 13);
+data.setCell(0, 1, 'testAdvCalc')
+data.setCell(0, 2, 'com.nackademin.catrine_bergstromner_assignment02.MyAdvancedCalcTest')
+data.setCell(0, 3, 225);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testCalc')
+data.setCell(1, 2, 'com.nackademin.catrine_bergstromner_assignment02.MyBasicCalcTest')
+data.setCell(1, 3, 77);
 window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 13 ms</span>
+              <span class="suite-total-time">Total running time: 302 ms</span>
               <div id="times-div-Surefire_suite">
               </div> <!-- times-div-Surefire_suite -->
             </div> <!-- times-div -->
@@ -217,10 +242,17 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.nackademin.catrine_bergstromner_assignment02.AppTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.nackademin.catrine_bergstromner_assignment02.MyAdvancedCalcTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">shouldAnswerWithTrue</span>
+                <span class="method-name">testAdvCalc</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nackademin.catrine_bergstromner_assignment02.MyBasicCalcTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testCalc</span>
+                <span class="method-start">238 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

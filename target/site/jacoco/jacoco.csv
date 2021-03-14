@@ -1,4 +1,4 @@
 GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-lectures-demo-calculator,com.nackademin.catrine_bergstromner_assignment02,AdvancedCalculator,19,0,0,0,6,0,6,0,6,0
-lectures-demo-calculator,com.nackademin.catrine_bergstromner_assignment02,BasicCalculator,19,0,0,0,5,0,5,0,5,0
-lectures-demo-calculator,com.nackademin.catrine_bergstromner_assignment02,Main,62,0,0,0,13,0,2,0,2,0
+calculator,com.nackademin.catrine_bergstromner_assignment02,AdvancedCalculator,0,19,0,0,0,6,0,6,0,6
+calculator,com.nackademin.catrine_bergstromner_assignment02,BasicCalculator,0,19,0,0,0,5,0,5,0,5
+calculator,com.nackademin.catrine_bergstromner_assignment02,Main,62,0,0,0,13,0,2,0,2,0
